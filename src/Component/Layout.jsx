@@ -1,7 +1,7 @@
 import React , {useState }from 'react'
 import Header from './Header'
 import { Outlet , useLocation  } from 'react-router-dom'
-
+import Footer from './Footer'
 
 const Layout = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -15,6 +15,7 @@ const Layout = () => {
       ) : (
         <Outlet />
       )};
+       <Footer/>
  </>
   )
 }

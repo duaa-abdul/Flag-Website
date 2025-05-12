@@ -8,7 +8,7 @@ const Header = ({ setSearchQuery }) => {
     <>
     <nav className={style.Navbar}>
         <div>
-            <h2>WorldFlag</h2>
+            <h2>WorldFlag 🌏 </h2>
         </div>
         <div className= {style.search}>
             <input type="text" placeholder='Serach here'   onChange={(e) => setSearchQuery(e.target.value)} />

@@ -37,7 +37,7 @@ const Detail = () => {
     <p><strong>Languages:</strong> {Object.values(country.languages || {}).join(", ")}</p>
 
   </div>
-<button className={styles.Button}><a href="Detail.jsx">home page</a></button>
+<button className={styles.Button}><a href="/">home</a></button>
 </div> 
 
 

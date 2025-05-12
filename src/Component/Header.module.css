@@ -4,16 +4,19 @@
   box-sizing: border-box;
 }
 .Navbar {
-  height: 60px;
+  height: 80px;
   width: 100%;
-  background-color: #286b80;
+   background: linear-gradient(to right, #286b80, #6bb7c9);
   color: #d3e4eb;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+.Navbar h2{
+  font-size: 35px;
+}
 .search input {
-  height: 30px;
+  height: 40px;
   width: 230px;
   background-color: #d3e4eb;
   color: #286b80;  
@@ -63,4 +66,17 @@
   .search input {
     font-size: 0.8rem;
   }
+}
+
+
+/* footer.. */
+
+.Footer {
+  background: linear-gradient(to right, #286b80, #4db6ac);
+  color: white;
+ height: 50px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }

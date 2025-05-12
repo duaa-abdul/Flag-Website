@@ -6,6 +6,7 @@ import Detail from './Pages/Detail'
 
 
 
+
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
